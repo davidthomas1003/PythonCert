@@ -83,3 +83,50 @@ abs(-2.3) - returns the absolute value from -2.3 which is 2.3
 divmod(10,3) - divids the number in parenthesis and returns the quotient and remainder which is (3,1)
 pow(2,3) - returns 2 to the power of 3 which is 8
 round(24.9) - round 24.9 to 25, this rounds both up and down
+
+Variables: - Data changes in a python program and refers to an object which is any kind of datatype
+	namespace: Keeps variables unique and are unique in their own namespace unless a namespace is called into another namespace
+	naming rules: 
+		Only letters, numbers and under-scores (_)
+		Begin with letters and under-scores (no numbers)
+		No spaces or special characters
+		Case sensitive
+		
+		
+--------------------------------------------------------------------------------------------------
+
+Strings:
+	String Creation:
+		Single quotes:  'hello'
+		ex. print('print this directly')
+		Double quotes:  "hello"
+		Triple-Single quotes: '''hello'''
+		ex. print('''This is line1.
+				This is line 2.''')
+		Triple-Double quotes: """hello"""
+		ex. a = """This is line 1.
+				This is line 2.
+				How are you doing"""
+		\n - when inserted in a string will drop proceeding text to a new line
+		\t - when inserted in a string will insert a tab
+		a = 'How are y\'all doing?' - this allows for apostrophies to be added to text without exiting the string
+		print('Cost\\nauticalmile') - allows for blackslash to be inserted
+	String Index:
+		a[0] = 'h'        a[-1] = 'o'
+		a[1] = 'e'        a[-2] = 'l'
+		a[2] = 'l'        a[-3] = 'l'
+		a[3] = 'l'        a[-4] = 'e'
+		a[4] = 'o'        a[-5] = 'h'
+	String Manipulation:
+		upper() \ lower() - are methods to chance case
+		len() - gets the length of a string
+		strip() - removes whitespace before and after a string
+		replace() - replaces all or parts of a string
+		split() - splits a string based on a seperator
+		count() - method to count the number of occurences of a sub-string
+		
+		in \ not in - are keywords to determine if a sub-string exists
+		slice: a[startIndex: endIndex]
+			ex. a = 'Hello'
+				a[1,4] -> 'ell'
+		
